@@ -1,0 +1,122 @@
+.contain{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+}
+.carousel-div{
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    opacity: 1;
+    transition:opacity 1s ;
+    position: absolute;
+}
+.carousel-div h2{
+   position: relative;
+   left: 20%;
+   top: 50%;
+   color: white;
+
+}
+.headli{
+	width: 100%;
+	height: 30%;
+	position: relative;
+	top:70%;
+	z-index: 100;
+	background-image: url('./../../images/no4.png');	
+	background-size: contain;
+	background-repeat: no-repeat;
+	
+}
+.footContain{
+	width: 100%;
+	height: 70%;
+	position: relative;
+	top: 30%;
+	background-color: white;
+}
+.logoimg{
+   z-index: 200;
+  position: absolute;
+  width: 10%;
+  left: 50%;
+  margin-left: -5%;
+}
+.nav-left{
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	z-index: 300;
+
+}
+.nav-right{
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	left: 50%;
+	z-index: 300;
+	
+}
+.nav-left img{
+display: inline-block;
+  width: 10%;
+  
+  margin-left: 10%;
+  position: relative;
+
+}
+.nav-left img:nth-child(1){
+margin-left: 25%;
+margin-top: 10%;
+}
+.nav-left img:nth-child(4){
+margin-left: 25%;
+
+
+}
+.nav-right img{
+display: inline-block;
+  width: 10%;
+  
+  margin-left: 10%;
+  position: relative;
+
+}
+.nav-right img:nth-child(1){
+margin-left: 25%;
+margin-top: 10%;
+}
+
+.nav-right img:nth-child(4){
+margin-left: 25%;
+
+
+}
+
+.animationMouse{
+	transition:top 1s;
+}
+.animationMouse:hover{
+   top:-5%;
+
+}
+
+.sidenav{
+	position: absolute;
+    z-index: 999;
+    left: 80%;
+    top: 10%;
+}
+.sidenav ul{
+	list-style: none;
+}
+.sidenav ul li  {
+	padding-top: 5%;
+}
+.sidenav ul li img:hover {
+	opacity: 0.9
+}
+
+
